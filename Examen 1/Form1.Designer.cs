@@ -1,6 +1,6 @@
 ﻿namespace Examen_1
 {
-    partial class Form1
+    partial class Examen1
     {
         /// <summary>
         ///  Required designer variable.
@@ -79,7 +79,7 @@
             LBL_ISR.TabIndex = 4;
             LBL_ISR.Text = "ISR: ";
             // 
-            // Form1
+            // Examen1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -90,7 +90,7 @@
             Controls.Add(label1);
             Controls.Add(TB_Sueldo);
             Controls.Add(btn_Calcular);
-            Name = "Form1";
+            Name = "Examen1";
             Text = "Calculo de ISR";
             ResumeLayout(false);
             PerformLayout();
