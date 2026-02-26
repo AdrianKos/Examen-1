@@ -42,6 +42,8 @@ namespace Examen_1
                 else
                 {   
                     //Calculo del ISR y el sueldo neto
+
+                    //cada if es el rango en el que cae un Sueldo, asi calculo el ISR
                     if (sueldo > 0 && sueldo < 746.05)
                     {
                         isr = 0 + (sueldo - 0.01) * 0.0192;
